@@ -12,6 +12,8 @@ As far as the assignment itself, I started with a whole lot of if/else statement
 
 ## Link to Production
 
+Open [https://annamarlena.github.io/password-generator/](https://annamarlena.github.io/password-generator/) to see the result.
+
 ## Screenshot
 
 ![Screenshot showing a random password generated in the browser](./screenshot.png)
