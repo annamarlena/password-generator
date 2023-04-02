@@ -1,100 +1,15 @@
-# 03 JavaScript: Password Generator
+# Password Generator Homework Assignment
 
-## Your Task
+## Objective
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+The objective of this assignment was to create a password generator that interacts with the DOM. The password generator should first ask the client how many digits they would like, check for 8-128, then proceed to ask if they would like lowercase letters, uppercase letters, numbers, and special characters. For any of these that the client chooses, the password generator then does a random selection and provides a custom password to the client, based on their responses.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+## What I Learned
 
-## User Story
+First and foremost, I learned that I really really need to create my repo before starting the homework. What I actually did was start the homework and do a bunch of revisions as I tested it. I woke up on the day the homework was due with the realization that I hadn’t done any git commits yet, and then it dawned on me: I hadn’t created the repo. First thing this morning (Sunday 4/2/23), that’s what I tried to do. And tried to do. And tried again. I reached out in the Slack channel for help but still wasn’t getting it, even with the instructor’s assistance. Thankfully I have some good friends in the industry and one helped me get this figured out. In the meantime I pretty much completed the homework assignment, with just a few tweaks needed. I’m so sad none of those changes are reflected as commits in my repo. This has been a big lesson for me! 
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+As far as the assignment itself, I started with a whole lot of if/else statements. My code was super repetitive so I did meet with a tutor yesterday to go over the thought processes I needed to follow to break the steps down and simplify my code. After discussing with the tutor, I was able to cut my lines of code down to about 1/3 of what I had before. I wish there were commits to show my learning process, it's pretty cool to look back on where I started vs the knowledge I gained from this assignment!
 
-## Acceptance Criteria
+## Link to Production
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
-
-## Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Screenshot
