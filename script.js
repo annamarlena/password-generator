@@ -1,10 +1,12 @@
-  // Declare variables to store the answers to the prompts 
-  var numChars 
-  var lowerCase = true;
-  var upperCase = true;
-  var numeric = true;
-  var specialChars = true;
-  var newPassword
+// Declare variables to store the answers to the prompts 
+var numChars 
+var lowerCase = true;
+var upperCase = true;
+var numeric = true;
+var specialChars = true;
+
+// Store the final concatenated string of random characters
+var newPassword  
 
 // Create the function called generatePassword() as per the given code
 function generatePassword() {
@@ -15,11 +17,11 @@ function generatePassword() {
   // Create an empty array to store the randomly generated password characters
   var pwArray = [];
 
-  // The prompt for pw length (must include an if/else for min 8, max 128 characters)
+  // Function that prompts for pw length (includes an if/else for min 8, max 128 characters)
   function getLength() {
     numChars = prompt("How many characters long would you like your password to be? (Choose a number from 8-128)");
 
-    if (numChars < 8 || numChars > 128) {
+    if ( numChars < 8 || numChars > 128 ) {
         getLength();
     }
       else {
@@ -52,13 +54,13 @@ function generatePassword() {
         chosenChars = chosenChars.concat(bigAlphabet);  // If yes, add them into an array
       }
       
-      // Ask the client if they want numbers in their password
+      // Ask client if they want numbers in their password
       numeric = confirm("Do you want any numbers in your password?");
       if ( numeric === true ) {
         chosenChars = chosenChars.concat(numChoices);  // If yes, add them into an array
       }
 
-      // Ask the client if they want special characters in their password
+      // Ask client if they want special characters in their password
       specialChars = confirm("Do you want any special characters in your password?");
       if ( specialChars === true ) {
         chosenChars = chosenChars.concat(symbols);  // If yes, add them into an array
@@ -78,9 +80,9 @@ function generatePassword() {
   // call the function that creates the array of options
  charTypes()
 
-    // Convert password from an array into a string & return it
-    newPassword = pwArray.join('');
-    return newPassword;
+  // Convert password from an array into a string & return it
+  newPassword = pwArray.join('');
+  return newPassword;
 }
 
 // Assignment Code
